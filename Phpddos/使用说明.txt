@@ -1,0 +1,18 @@
+
+支持血腥shell和其他shell。
+
+添加和批量导入时填写上该种phpshell的参数即可调用，
+例shell源码中：
+$host = $_GET['ip'];
+$port = $_GET['port'];
+$exec_time = $_GET['time'];
+
+则该shell的ip变量为ip，端口变量为port,时间变量为time。
+
+血腥shell导入格式，每行一个：
+http://xxxxxx.xxx/xxx.php[hp]血腥[hp]密码
+
+其他shell导入格式，每行一个：
+http://xxxxxx.xxx/xxx.php
+
+不同的shell调用方法可能不同，根据情况自己填写导入参数。
